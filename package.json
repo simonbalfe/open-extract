@@ -1,6 +1,6 @@
 {
   "name": "open-extract",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Standalone URL-to-Markdown extraction library and CLI.",
   "type": "module",
   "module": "src/index.ts",
@@ -25,6 +25,7 @@
   "dependencies": {
     "@mozilla/readability": "^0.6.0",
     "@tavily/core": "^0.7.6",
+    "@types/turndown": "^5.0.6",
     "cheerio": "^1.2.0",
     "domhandler": "^6.0.1",
     "impit": "^0.14.1",
@@ -35,7 +36,6 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "@types/turndown": "^5.0.6",
     "typescript": "^5"
   }
 }
