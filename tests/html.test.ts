@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { extractStructuredData, htmlToMarkdown } from "../src/index.ts";
+import { extractStructuredData, htmlToMarkdown } from "../src/html.ts";
 
 const PAGE = `<html><head>
   <meta name="description" content="Acme company profile.">
